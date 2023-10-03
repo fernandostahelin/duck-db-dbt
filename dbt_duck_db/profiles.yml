@@ -1,0 +1,6 @@
+dbt_duck_db:
+  outputs:
+    dev:
+      type: duckdb
+      path: 'D:\pastas_usuario\Documents\Estudos\2023_09_27_testing_dbt_duck_db\dbt.duckdb'
+  target: dev
